@@ -87,18 +87,5 @@ if (function_exists('spl_autoload_register')) {
             spl_autoload_register('__autoload');
         }
     }
-} elseif (!function_exists('__autoload')) {
-
-    /**
-     * Autoload a class
-     *
-     * @param string $class Class name
-     *
-     * @return bool
-     */
-    function __autoload($class)
-    {
-        return CASSHIB_autoload($class);
-    }
 }
 

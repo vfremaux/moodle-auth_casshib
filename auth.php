@@ -39,7 +39,7 @@ class auth_plugin_casshib extends auth_plugin_ldap {
     /**
      * Constructor.
      */
-    function auth_plugin_casshib() {
+    function __construct() {
         $this->authtype = 'casshib';
         $this->roleauth = 'auth_casshib';
         $this->errorlogtag = '[AUTH CASSHIB] ';
