@@ -24,11 +24,11 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->version   = 2016011100;        // The current plugin version (Date: YYYYMMDDXX).
-$plugin->requires  = 2018042700;        // Requires this Moodle version.
+$plugin->requires  = 2018112800;        // Requires this Moodle version.
 $plugin->component = 'auth_casshib';        // Full name of the plugin (used for diagnostics).
 $plugin->dependencies = array('auth_ldap' => 2014050800);
 $plugin->maturity = MATURITY_STABLE;
-$plugin->release = "3.5.0 (Build 2016011100)";
+$plugin->release = "3.6.0 (Build 2016011100)";
 
 // Non moodle attributes.
-$plugin->codeincrement = '3.5.0000';
+$plugin->codeincrement = '3.6.0000';
