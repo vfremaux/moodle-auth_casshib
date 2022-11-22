@@ -24,6 +24,8 @@
 
 defined('MOODLE_INTERNAL') || die();
 
+$string['privacy:metadata'] = 'This plugin has no direct user data hold by itself.';
+
 $string['CASform'] = 'Authentication choice';
 $string['accesCAS'] = 'CAS users';
 $string['accesNOCAS'] = 'other users';
